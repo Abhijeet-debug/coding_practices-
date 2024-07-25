@@ -27,6 +27,7 @@ public class LearnVarArgs {
       //  showNumbers(new int[]{11, 22, 33, 44, 55});
 
         System.out.println(max(10,20,30));
+        showNumbers(12,13,10);
 
     }
 }
