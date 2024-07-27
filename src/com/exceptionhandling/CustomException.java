@@ -11,8 +11,8 @@ public class CustomException {
             int age = sc.nextInt();
             if (age > 100) {
                 // throw new MyException("my error is this");
-                // throw new ArithmeticException("More than 100 is not allowed");
-                throw new ArithmeticException();
+                throw new ArithmeticException("More than 100 is not allowed");
+                //  throw new ArithmeticException();
             }
         } catch (Exception e) {
             System.out.println(e);
