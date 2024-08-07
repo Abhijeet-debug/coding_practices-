@@ -12,6 +12,7 @@ public class LearnGenerics {
 
         System.out.println(c1);
         System.out.println(c2);
+        
     }
 }
 
